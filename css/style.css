@@ -1,0 +1,181 @@
+/* Font references */
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto|Source+Code+Pro|Source+Sans+Pro');
+
+/* keyframes and Animations */
+
+@keyframes fade {
+  0% {background-color: #000;}
+  100% {background-color: #fff;}
+}
+
+/* Navbar */
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+.list-unstyled {
+  text-align: center;
+}
+
+.list-unstyled > li {
+  display: inline-block;
+}
+
+.about, .home, .merch {
+  color: #fff
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+  border: 2px solid #fff;
+  float: left;
+  margin: 10px;
+}
+
+a:link {
+    color: #fff;
+}
+
+/* visited link */
+a:visited {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* mouse over link */
+.about:hover, .home:hover, .merch:hover {
+    color: #000;
+    background-color: #fff;
+    transition: background-color 0.5s; */
+}
+
+/* selected link */
+a:active {
+    color: #fff;
+}
+
+/* Body styling */
+body {
+  background-color: #000;
+  margin: 0px;
+  overflow: hidden;
+}
+
+/* Home page styling */
+.stream-center {
+  margin: 0;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: auto;
+  height: auto;
+}
+
+#glitch-center {
+}
+
+.center-title {
+  /* TODO: add centered glitch text above player that looks like cmd prompt */
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+.stream-title {
+  color: #fff;
+  font-size: 3em;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+  letter-spacing: 5px;
+  /* text-shadow: 2px 0px #870000; */
+}
+
+.timer {
+  text-align: center;
+  letter-spacing: 3px;
+  color: #fff;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 50px;
+  border-bottom: 2px dashed #fff;
+  padding-bottom: 25px;
+}
+
+.socialLinksCenter {
+  text-align: center;
+  padding: 0;
+  margin-left: 0;
+  margin-top: 40px;
+}
+
+/* About page content styling */
+#about-page {
+  position: inherit;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  display: none;
+}
+
+.profile {
+  text-align: center;
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  border: 2px solid #FAB81E;
+}
+
+.subText {
+  margin-top: 50px;
+  font-size: 3em;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.subTextUnderline {
+  border-bottom: 2px solid #FAB81E;
+}
+
+.aboutText {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: #fff;
+  margin: 25px;
+  text-align: left;
+  position: relative;
+}
+
+.row {
+  margin-top: 60px;
+  margin-left: 50px;
+  position: relative;
+  width: 95%;
+}
+
+.socialLink {
+  text-align: center;
+  margin: 15px;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 5px;
+}
+
+.socialLink:hover {
+  color: #FAB81E;
+  -webkit-transition: color 0.25s; /* Safari */
+  transition: color 0.25s;
+}
