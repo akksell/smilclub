@@ -68,7 +68,7 @@ body {
 }
 
 /* Home page styling */
-.stream-center {
+.index-center {
   margin: 0;
   position: absolute;
   top: 40%;
@@ -80,22 +80,6 @@ body {
 }
 
 #glitch-center {
-}
-
-.center-title {
-  /* TODO: add centered glitch text above player that looks like cmd prompt */
-  text-align: center;
-  width: 100%;
-  position: absolute;
-}
-
-.stream-title {
-  color: #fff;
-  font-size: 3em;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 50px;
-  letter-spacing: 5px;
-  /* text-shadow: 2px 0px #870000; */
 }
 
 .timer {
