@@ -67,6 +67,14 @@ body {
   overflow: hidden;
 }
 
+@media screen and (max-width: 560px) {
+  .index-glitch-img {
+    width: 350px;
+    margin-top: 50px;
+  }
+
+}
+
 /* Home page styling */
 .index-center {
   margin: 0;
@@ -77,9 +85,6 @@ body {
 
   width: auto;
   height: auto;
-}
-
-#glitch-center {
 }
 
 .timer {
@@ -118,7 +123,6 @@ body {
   width: 175px;
   height: 175px;
   border-radius: 50%;
-  border: 2px solid #FAB81E;
 }
 
 .subText {
@@ -145,9 +149,7 @@ body {
 
 .row {
   margin-top: 60px;
-  margin-left: 50px;
   position: relative;
-  width: 95%;
 }
 
 .socialLink {
