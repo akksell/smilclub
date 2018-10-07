@@ -22,6 +22,7 @@
 
 .list-unstyled {
   text-align: center;
+  margin-top: 20px;
 }
 
 .list-unstyled > li {
@@ -163,4 +164,8 @@ body {
   color: #FAB81E;
   -webkit-transition: color 0.25s; /* Safari */
   transition: color 0.25s;
+}
+
+.brand-about-text {
+  letter-spacing: 2px;
 }
