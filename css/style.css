@@ -67,8 +67,16 @@ body {
   overflow: hidden;
 }
 
+@media screen and (max-width: 560px) {
+  .index-glitch-img {
+    width: 350px;
+    margin-top: 50px;
+  }
+
+}
+
 /* Home page styling */
-.stream-center {
+.index-center {
   margin: 0;
   position: absolute;
   top: 40%;
@@ -77,25 +85,6 @@ body {
 
   width: auto;
   height: auto;
-}
-
-#glitch-center {
-}
-
-.center-title {
-  /* TODO: add centered glitch text above player that looks like cmd prompt */
-  text-align: center;
-  width: 100%;
-  position: absolute;
-}
-
-.stream-title {
-  color: #fff;
-  font-size: 3em;
-  font-family: 'Roboto', sans-serif;
-  margin-top: 50px;
-  letter-spacing: 5px;
-  /* text-shadow: 2px 0px #870000; */
 }
 
 .timer {
@@ -134,7 +123,6 @@ body {
   width: 175px;
   height: 175px;
   border-radius: 50%;
-  border: 2px solid #FAB81E;
 }
 
 .subText {
@@ -161,9 +149,7 @@ body {
 
 .row {
   margin-top: 60px;
-  margin-left: 50px;
   position: relative;
-  width: 95%;
 }
 
 .socialLink {
