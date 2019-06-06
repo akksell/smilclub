@@ -34,84 +34,52 @@
         <!-- About page begins -->
           <div id="about-page" class="col-lg-12">
               <div class="col-lg-12"> <!-- Title of about page -->
-                  <img src="./img/profile.jpg" class="profile">
+                  <img src="./img/logos/profile.png" class="profile">
                   <h2 class="subText"><span class="subTextUnderline">about smil.</span></h2>
               </div>
-              <div class="row"> <!-- About jericho section -->
+              <div class="row" style="margin-top: 30px;"> <!-- About smil. section -->
                 <div class="col-lg-2">
                 </div>
                 <div class="col-lg-4">
-                  <p class="aboutText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                  <p class="aboutText"><span class="brand-about-text">SMIL.</span> is a fashion and design company that specializes in creating the most unique merchandise designs on the market. The brand aims to provide individuals with comfortable clothing that expresses the individual's personality and creativity. <span class="brand-about-text">SMIL.</span> plans to release new merchandise every month that is either related to a specific theme or is completely different from other <span class="brand-about-text">SMIL.</span> designs. Some merchandise will only be available for a limited time.</p>
                 </div>
                 <div class="col-lg-4">
-                  <p class="aboutText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
+                  <p class="aboutText">The <span class="brand-about-text">SMIL.</span> brand was started by four 16 year olds: Gavin G, Will D, Will C, and Nick C, and is located in Texas. Each of the owners has their own role such as design, communications, and management. </p>
+				  <ul class="list-unstyled components" style="float: right; margin-right: 25px;"> <!-- TODO: maybe clean this up as it is a messy practice -->
+                    	<li>
+                      		<a class="nav-item nav-link home" id="home" href="#home-page">GO BACK</a>
+                    	</li>
+					</ul>
+				</div>
               </div>
               <div class="row"> <!-- Social media links -->
                 <div class="col-lg-12">
-                  <a href="https://discord.gg/PXH5phs" class="socialLink" title="Discord"><i class="fab fa-discord"></i></a>
-                  <a href="http://twitter.com/Jericho" class="socialLink" title="Twitter"><i class="fab fa-twitter"></i></a>
-                  <a href="https://www.youtube.com/subscription_center?add_user=iijeriichoii" class="socialLink" title="Youtube"><i class="fab fa-youtube"></i></a>
-                  <a href="https://www.facebook.com/iijeriichoii" class="socialLink" title="Facebook"><i class="fab fa-facebook-square"></i></a>
+                  <a href="https://twitter.com/CompanySmil" class="socialLink" title="Twitter"><i class="fab fa-twitter"></i></a>
+                  <a href="https://www.instagram.com/smil.company/" class="socialLink" title="Instagram"><i class="fab fa-instagram"></i></a>
                 </div>
               </div>
           </div>
 
           <!-- About page Ends -->
 
-          <!-- Stream page begins -->
+          <!-- Home page begins -->
           <div id="home-page">
-
-            <!-- Countdown JS -->
-            <script>
-            var countdownDate =  new Date("November 31, 2018 00:00:00").getTime();
-
-            // Update the count down every 1 second
-            var x = setInterval(function() {
-
-                // Get todays date and time
-                var now = new Date().getTime();
-
-                // Find the distance between now and the count down date
-                var distance = countdownDate - now;
-
-                // Time calculations for days, hours, minutes and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                document.getElementById("timer").innerHTML = days + ":" + hours + ":" + minutes + ":" + seconds;
-
-            }, 1000);
-            </script>
-
-            <!-- Stream embed on page -->
-            <div class="stream-center">
+            <div class="index-center">
                 <div id="glitch-center">
-                  <img src="./img/logos/glitch_2.gif"></img>
+                  <img class="index-glitch-img" src="./img/logos/glitch_2.gif"></img>
                 </div>
-
-                <p class="timer" id="timer"></p>
-                <div style="text-align: center;">
-                  <ul class="socialLinksCenter">
-                    <a href="https://twitter.com/CompanySmil" class="socialLink" title="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/smil.company/" class="socialLink" title="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="socialLink" title="Facebook"><i class="fab fa-facebook-square"></i></a>
-                  </ul>
-                </div>
-                <!-- Sidebar -->
-                  <!--<ul class="list-unstyled components">
+                <!-- Sidebar --> <!-- TODO: add facebook page link -->
+                  <ul class="list-unstyled components">
                     <li>
                       <a class="nav-item nav-link about" id="about" href="#about">ABOUT</a>
                     </li>
                     <li>
-                      <a class="nav-item nav-link active home" id="home" href="#stream">HOME</span></a>
+                      <a class="nav-item nav-link active home" id="home" href="#">HOME</span></a>
                     </li>
                     <li>
-                      <a class="nav-item nav-link merch" id="merch" href="./merch.html">MERCH</a>
+                      <a class="nav-item nav-link merch" id="merch" href="https://store.smil.club">STORE</a>
                     </li>
-                  </ul>  -->
+                  </ul>
             </div>
           </div>
         </div>
